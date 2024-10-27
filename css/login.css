@@ -1,0 +1,17 @@
+.login-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 2px solid #dbd7d7bc;
+    border-radius: 6px;
+    padding: 10px;
+    align-items: stretch;
+}
+.login-content img{
+    max-width: 100%;
+    padding: 0px 10px 0px 10px;
+    object-fit: cover;
+}
+.login-content form{
+    margin-block: auto;
+    padding: 10px;
+}

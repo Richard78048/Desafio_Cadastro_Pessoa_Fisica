@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(220, 212, 212); 
+}
+main{
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    min-height: 100vh;
+}
+nav{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens em linha */
+    margin-right: 25px; /* Espaço entre os itens */
+}
+
+nav ul li a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Cor do texto */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #ffffff; /* Cor ao passar o mouse */
+    background-color: black;
+}
+.content-box{
+    background-color: white;
+    width: calc(80% - 10vw);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.content-box h2 {
+    margin-bottom: 10px;
+}
+.content-box ul{
+    margin-left: 10px;
+}
+.content-box li{
+    padding: 10px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+.content-box li a{
+    text-decoration: none;
+    color:black;
+}
+.content-box li a:hover{
+    text-decoration: underline;
+}
+footer{
+    margin-top: auto;
+    float: left;
+    display: block;
+    background-color: rgb(255, 251, 251);
+    color: black;
+    width: 100%;
+}
+.ft{
+    float: left;
+    margin-right: 10px;
+    padding: 20px;
+}
+.ft h4 {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-feature-settings: "calt";
+    margin-bottom:5px ;
+}
+.ft a{
+text-decoration: none;
+color:black;
+}
+footer img {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding: 12px;
+    vertical-align: middle;
+}
+.name_user{
+    text-transform: uppercase;
+}
+.unit_tests{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.unit_tests a{
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 10px;
+    background-color: #e6e4e4;
+}
+.unit_tests a:hover{
+    text-decoration: underline;
+    background-color: white;
+    border-color: black;
+}
+.update_user{
+    text-transform: uppercase;
+    padding: 10px;
+}
+.update_user label{
+    font-size: 1.15rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.update_user label a{
+    margin-left: 5px;
+}
+.update_user label form{
+    width: 100%;
+    display: inline-flex;
+}
+.update_user label  form button{
+    padding: 10px;
+    cursor: pointer;
+    border:1px solid black;
+}
+.delete_user{
+    border-radius: 9px;
+    background-color: rgba(219, 20, 20, 0.867);
+    padding: 5%;
+}
+.delete_user h2{ 
+    color: white;
+    margin-bottom: 20px;
+}
+.delete_user div{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.delete_user a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    text-align: center;
+    color: black; 
+    background: white;
+    border: 1px solid black;
+    border-radius: 9px;
+    width: 50%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.delete_user a:hover{ 
+    border-color: white;
+    color: red;
+}
+.res_sucess{
+    background-color: #3e8e41;
+    padding: 20px;
+    font-size: large;
+    color: white;
+    margin-top: 2px;
+}
+.res_fail{
+    background-color: crimson;
+    padding: 20px;
+    font-size: large;
+    color: white;
+}
